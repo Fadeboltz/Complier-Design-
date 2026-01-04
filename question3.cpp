@@ -22,11 +22,7 @@ void CommentCheck()
             return;
         }
     }
-    if(c.length() >= 2 && c[c.length()-2] == '*' && c[c.length()-1] == '/')
-    {
-        cout << "This is a multi-line comment end." << endl;
-        return;
-    }
+
  
     cout << "This is not a comment." << endl;
 }
